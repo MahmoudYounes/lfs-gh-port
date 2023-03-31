@@ -43,6 +43,10 @@
       <para>2023-03-31</para>
       <itemizedlist>
         <listitem>
+          <para>[xry111] - Update to linux-6.2.9 (security fix).  Fixes
+          <ulink url='&lfs-ticket-root;5230'>#5230</ulink>.</para>
+        </listitem>
+        <listitem>
           <para>[xry111] - Update to grep-3.10.  Fixes
           <ulink url='&lfs-ticket-root;5234'>#5234</ulink>.</para>
         </listitem>
@@ -73,10 +77,6 @@
         <listitem>
           <para>[xry111] - Update to xz-5.4.2.  Fixes
           <ulink url='&lfs-ticket-root;5233'>#5233</ulink>.</para>
-        </listitem>
-        <listitem>
-          <para>[xry111] - Update to linux-6.2.8.  Fixes
-          <ulink url='&lfs-ticket-root;5230'>#5230</ulink>.</para>
         </listitem>
         <listitem>
           <para>[xry111] - Update to openssl-3.1.0.  Fixes
