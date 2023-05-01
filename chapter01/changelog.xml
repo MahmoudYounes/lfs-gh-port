@@ -40,6 +40,28 @@
     appropriate for the entry or if needed the entire day's listitem.
     -->
     <listitem>
+      <para>2023-04-30</para>
+      <itemizedlist>
+        <listitem>
+          <para>[bdubbs] - Update to gcc-13.1.0. Fixes
+          <ulink url='&lfs-ticket-root;5247'>#5247</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to perl-5.36.1. Fixes
+          <ulink url='&lfs-ticket-root;5246'>#5246</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to linux-6.3. Fixes
+          <ulink url='&lfs-ticket-root;5245'>#5245</ulink>.</para>
+        </listitem>
+        <listitem>
+          <para>[bdubbs] - Update to coreutils-9.3. Fixes
+          <ulink url='&lfs-ticket-root;5244'>#5244</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+    <listitem>
       <para>2023-04-15</para>
       <itemizedlist>
         <listitem>
