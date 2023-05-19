@@ -42,6 +42,10 @@
   <sect2 role="installation">
     <title>Installation of Util-linux</title>
 
+    <para>First, disable a problem test:</para>
+
+    <screen><userinput remap="pre">sed -i '/test_mkfds/s/^/#/' tests/helpers/Makemodule.am</userinput></screen>
+
     <para>Prepare Util-linux for compilation:</para>
 
 <screen revision="sysv"><userinput remap="configure">./configure ADJTIME_PATH=/var/lib/hwclock/adjtime \
