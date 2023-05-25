@@ -39,6 +39,17 @@
     <listitem revision="sysv"> or <listitem revision="systemd"> as
     appropriate for the entry or if needed the entire day's listitem.
     -->
+    <listitem revision='sysv'>
+      <para>2023-05-25</para>
+      <itemizedlist>
+        <listitem revision='sysv'>
+          <para>[ken] - Remove unneeded group sgx from eudev rules.  Fixes
+          <ulink url='&lfs-ticket-root;5265'>#5265</ulink>.</para>
+        </listitem>
+      </itemizedlist>
+    </listitem>
+
+
     <listitem>
       <para>2023-05-18</para>
       <itemizedlist>
