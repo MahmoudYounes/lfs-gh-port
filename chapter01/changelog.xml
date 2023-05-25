@@ -53,7 +53,7 @@
     <listitem>
       <para>2023-05-18</para>
       <itemizedlist>
-        <listitem revision='sysv'>
+        <listitem>
           <para>[bdubbs] - Update to util-linux-2.39.  Fixes
           <ulink url='&lfs-ticket-root;5259'>#5259</ulink>.</para>
         </listitem>
