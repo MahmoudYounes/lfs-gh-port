@@ -126,14 +126,13 @@
       (replace <replaceable>libfoo</replaceable> with the name of the
       library):</para>
 
-<screen role="nodump"><userinput>grep -l  -e '<replaceable>libfoo</replaceable>.*deleted' /proc/*/maps |
-   tr -cd 0-9\\n | xargs -r ps u</userinput></screen>
+<screen role="nodump"><userinput>grep -l '<replaceable>libfoo</replaceable>.*deleted' /proc/*/maps | tr -cd 0-9\\n | xargs -r ps u</userinput></screen>
 
       <para>
         If <application>OpenSSH</application> is being used to access
         the system and it is linked to the updated library, you must
         restart the <command>sshd</command> service, then logout, login again,
-        and rerun the preceding ps command to confirm that nothing is still using the
+        and run the preceding command again to confirm that nothing is still using the
         deleted libraries.
       </para>
 
