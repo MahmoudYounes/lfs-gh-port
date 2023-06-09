@@ -86,12 +86,12 @@
       </listitem>
 
       <listitem><para>If a package is (directly or indirectly) linked to both
-      the old and new versions of a shared library (for example, the package
+      the old and new names of a shared library (for example, the package
       links to both <filename class='libraryfile'>libfoo.so.2</filename> and
       <filename class='libraryfile'>libbar.so.1</filename>, while the latter
       links to <filename class='libraryfile'>libfoo.so.3</filename>), the
       package may malfunction because the different revisions of the shared
-      library present conflicting locations for some symbol names. This can be
+      library present incompatible definitions for some symbol names. This can be
       caused by recompiling some, but not all, of the packages linked to the
       old shared library after the package providing the shared library is
       upgraded.  To avoid the issue, users will need to rebuild every package
