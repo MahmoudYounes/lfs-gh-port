@@ -45,3 +45,14 @@ lynx) and then install the following:
 
 * FOP and JAI
   - https://www.linuxfromscratch.org/blfs/view/svn/pst/fop.html
+
+-------------------------------------------------------------------------------
+EDIT: @myonaiz (MahmoudYounes)
+I have added gen.sh to automate the process of book generation.
+The philosophy of the authors behind providing links to the packages for compilation and installation
+is two folds:
+* to give an idea of how the process of generating a linux distro works in general.
+* packages version. [The Hell Matrix]
+While this philosophy holds, I have compiled multiple packages many times before.
+Most packages are portable and backwards compatiable. If you try the generation and the process
+is broken please update this fork if you want.
